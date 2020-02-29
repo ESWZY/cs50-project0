@@ -6,11 +6,29 @@
 			hi {
 				front-family: Times New Roman, sans-serif;
 			}
+			
+			youtube {
+				position: relative;
+				width: "100%";
+				height: 0;
+				padding-bottom: 56.25%;
+			}
+
+			video {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
 		</style>
     </head>
     <body>
 		<h1>Git - Lecture 0 - CS50's Web Programming with Python and JavaScript</h1>
 		<p>This is the teaching video.</p>
-        <iframe width="705" height="397" src="https://www.youtube.com/embed/1u2qu-EmIRc?list=PLnzclEQVIaQ54ND1eteyEXQ4rujQYRQAS?&autoplay=1" frameborder="20" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		<div style="position:relative;width:100%;height:0;padding-bottom:56.25%">
+			<iframe src="https://www.youtube.com/embed/1u2qu-EmIRc?list=PLnzclEQVIaQ54ND1eteyEXQ4rujQYRQAS?&autoplay=1" frameborder="0" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+		</div>
     </body>
 </html>
