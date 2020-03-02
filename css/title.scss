@@ -1,22 +1,25 @@
-@media (min-width: 1280px) {
+$big:1280px
+$small:530px
+
+@media (min-width: $big) {
 	#course-name::after {
 		content: " - CS50's Web Programming with Python and JavaScript";
 	}
 }
 			
-@media (max-width: 1280px) {
+@media (max-width: $big) {
     #course-name::after {
         content: " - CS50 ";
     }
 }
 
-@media (min-width: 530px) {
+@media (min-width: $small) {
     #mainpage-name::after {
         content: " Online Study Platform";
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: $small) {
     .col-3{
         display: none;
     }

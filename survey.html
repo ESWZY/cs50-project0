@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Web高级程序设计 Online Study Platform</title>
+		<link rel="icon" href="SmirkBoy.gif" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/video.css">
+        <link rel="stylesheet" href="css/title.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <h1 id="mainpage-name">Web高级程序设计</h1>
+        <div class="row">
+            <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="background: #fffafa;margin-bottom:5px">
+                    <a class="nav-link" href="index.html" role="tab" aria-controls="v-pills-home" aria-selected="false">Home</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-selected="false">Study by</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="lecture0.html">Lecture 0 - Git</a>
+                            <a class="dropdown-item" href="lecture1.html">Lecture 1 - HTML, CSS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://mooc1-2.chaoxing.com/course/206449181.html">Web高级程序设计</a>
+                            <a class="dropdown-item" href="https://cs50.harvard.edu/web/">CS50’s Web Programming with Python and JavaScript</a>
+						</div>
+                    </li>
+                    <a class="nav-link" href="info.html" role="tab" aria-controls="v-pills-messages" aria-selected="false">Information</a>
+                    <a class="nav-link active" href="survey.html" role="tab" aria-controls="v-pills-settings" aria-selected="true">Survey</a>
+                    <a class="nav-link" href="https://github.com/ESWZY" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+					My Github
+					<!--iframe>
+						style="margin-left: 2px; margin-bottom:-5px;"
+						frameborder="0" scrolling="0" width="91px" height="20px"
+						src="https://ghbtns.com/github-btn.html?user=ESWZY&repo=project0-ESWZY&type=star&count=true">
+					</iframe-->
+					</a>
+				</div>
+				<a href="https://github.com/ESWZY">
+					<img src="lecture0/src0/cat.jpg" class="img-fluid" alt="Responsive image">
+				</a>
+            </div>
+            <div class="col-9">
+				<div style="padding-left:10%;padding-right:10%;padding-top:30px;padding-bottom:30px">
+					<h2>We want to know something about you!</h2>
+					<form class="needs-validation" novalidate>
+					  <div class="form-row">
+						<div class="col-md-4 mb-3">
+						  <label for="validationCustom01">First name</label>
+						  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+						  <div class="valid-feedback">
+							Looks good!
+						  </div>
+						</div>
+						<div class="col-md-4 mb-3">
+						  <label for="validationCustom02">Last name</label>
+						  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+						  <div class="valid-feedback">
+							Looks good!
+						  </div>
+						</div>
+						<div class="col-md-4 mb-3">
+						  <label for="validationCustomUsername">Username</label>
+						  <div class="input-group">
+							<div class="input-group-prepend">
+							  <span class="input-group-text" id="inputGroupPrepend">@</span>
+							</div>
+							<input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+							<div class="invalid-feedback">
+							  Please choose a username.
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="form-row">
+						<div class="col-md-6 mb-3">
+						  <label for="validationCustom03">City</label>
+						  <input type="text" class="form-control" id="validationCustom03" required>
+						  <div class="invalid-feedback">
+							Please provide a valid city.
+						  </div>
+						</div>
+						<div class="col-md-3 mb-3">
+						  <label for="validationCustom04">State</label>
+						  <select class="custom-select" id="validationCustom04" required>
+							<option selected disabled value="">Choose...</option>
+							<option>China</option>
+							<option>Other state</option>
+						  </select>
+						  <div class="invalid-feedback">
+							Please select a valid state.
+						  </div>
+						</div>
+						<div class="col-md-3 mb-3">
+						  <label for="validationCustom05">Zip</label>
+						  <input type="text" class="form-control" id="validationCustom05" required>
+						  <div class="invalid-feedback">
+							Please provide a valid zip.
+						  </div>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+						  <label class="form-check-label" for="invalidCheck">
+							Agree to <a href="https://www.baidu.com" target ="_blank">terms and conditions</a>
+						  </label>
+						  <div class="invalid-feedback">
+							You must agree before submitting.
+						  </div>
+						</div>
+					  </div>
+					  <button class="btn btn-primary" type="submit">Submit form</button>
+					</form>
+
+					<script>
+					(function() {
+					  'use strict';
+					  window.addEventListener('load', function() {
+						var forms = document.getElementsByClassName('needs-validation');
+						var validation = Array.prototype.filter.call(forms, function(form) {
+						  form.addEventListener('submit', function(event) {
+							if (form.checkValidity() === false) {
+							  event.preventDefault();
+							  event.stopPropagation();
+							}
+							form.classList.add('was-validated');
+						  }, false);
+						});
+					  }, false);
+					})();
+					</script>
+				</div>
+            </div>
+        </div>
+    </body>
+
+</html>
