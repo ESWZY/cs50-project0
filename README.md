@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 
 # Webpage
 
-**Here is the [link](https://eswzy.github.io/cs50-project0/index.html).**
+**Here are [Github page link](https://eswzy.github.io/cs50-project0/index.html) and [heroku link](https://cs50web-project0-eswzy.herokuapp.com/).**
 
 The page is an online study platform for this course. There are [main](https://eswzy.github.io/cs50-project0/index.html) page, [lecture 0](https://eswzy.github.io/cs50-project0/lecture0.html) page, [lecture 1](https://eswzy.github.io/cs50-project0/lecture1.html) page, [information](https://eswzy.github.io/cs50-project0/info.html) page and [survey](https://eswzy.github.io/cs50-project0/survey.html) page.
 
